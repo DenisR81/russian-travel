@@ -1,0 +1,15 @@
+.place__text {
+  color: #fff;
+  margin: 0;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.63;
+  max-width: 464px;
+  padding: 0 0 26px 0;
+  max-width: 484px;
+  font-weight: 400;
+}
+.place__text:last-child {
+  padding-bottom: 0;
+}
+
