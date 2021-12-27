@@ -1,4 +1,9 @@
 .place__paragraph {
 grid-area: text;
-display: block;
 }
+
+@media screen and (max-width: 525px) {
+  .place__paragraph {
+    max-width: 288px;
+  }
+  }

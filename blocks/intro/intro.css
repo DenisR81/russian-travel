@@ -3,3 +3,29 @@
   margin: 0 auto;
   color: #fff;
 }
+
+@media screen and (max-width: 1183px) {
+.intro {
+  max-width: 928px;
+}
+}
+
+@media screen and (max-width: 1023px) {
+.intro {
+  max-width: 768px;
+}
+}
+
+@media screen and (max-width: 767px) {
+.intro {
+  max-width: 425px;
+  padding-left: 24px;
+}
+}
+
+@media screen and (max-width: 424px) {
+  .intro {
+  max-width: 320px;
+  padding-left: 16px;
+}
+}
